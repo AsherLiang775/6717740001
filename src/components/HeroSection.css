@@ -1,0 +1,23 @@
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.hero-content-wrapper {
+    width: 100%;
+    padding-top: 120px;
+}
+
+.search-category-container {
+     margin-top: 30px;
+}
+
+.text-primary{
+    color: white;
+}
+
+.text-orange {
+    color: #FFA500 !important;
+}

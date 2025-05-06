@@ -1,0 +1,19 @@
+
+.about-page-container {
+    padding: 50px 100px; 
+    margin-top: 60px; 
+    line-height: 1.6; 
+
+}
+
+.about-page-container h2 {
+    margin-bottom: 20px; 
+}
+
+.about-page-container h3 {
+    margin-bottom: 10px; 
+}
+
+.about-page-container p {
+     margin-bottom: 10px; 
+}

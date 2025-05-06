@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+}
+
+/* 注意：这里的 body 选择器会影响整个应用的 body 样式，请谨慎使用或限制其作用范围 */
+/* 如果只想影响登录页面，考虑给登录页面的最外层容器一个独特的 class，并在样式中使用它 */
+.login-container {
+  background-color: #f8f9fa;
+  padding: 300px;
+}
+
+/* .form-signin 这个类由 Bootstrap HTML 提供，你的 JSX 中也使用了 */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"].form-control { /* 注意这里是 type="email"，而你的 JSX 中改为了 type="text" */
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* 如果你的用户名输入框 type="text"，你需要修改上面的选择器 */
+.form-signin input[type="text"].form-control { /* 修改为 type="text" */
+   margin-bottom: -1px; /* 根据需要调整，原 HTML 是为上下输入框紧密排列设计的 */
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+   /* 或者如果不需要紧密排列，删除这个规则 */
+}
+
+
+.form-signin input[type="password"].form-control {
+  margin-bottom: 10px; 
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+   
+}
+
+.text-center {
+  text-align: left !important; 
+}
+
+
+.text-body-secondary {
+  color: #6c757d !important;
+  font-size: 0.875em;
+}
+

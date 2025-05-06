@@ -1,0 +1,22 @@
+
+.add-note-button {
+    background-color: #202020; /* 深色背景颜色 */
+    color: white; /* 白色文字颜色 */
+    text-transform: uppercase; /* 文字转为大写 */
+    padding: 10px 20px; /* 按钮内边距 */
+    border: none; /* 移除默认边框 */
+    border-radius: 5px; /* 圆角 */
+    cursor: pointer; /* 鼠标悬停时显示手型 */
+    font-size: 1em; /* 字体大小 */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* 背景色和阴影的过渡动画 */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+    justify-content: flex-end; 
+}
+
+/* 鼠标悬停时的样式 */
+.add-note-button:hover {
+    background-color: #ffffff; /* 悬停时背景颜色稍微变浅 */
+    color: black; 
+    
+}
+
