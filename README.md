@@ -1,3 +1,4 @@
+
 # React Full Recipe App
 
 Welcome to the React Full Recipe App! This app allows you to discover a wide range of delicious recipes, including popular items, veggie picks, and various cuisine categories such as Italian, Chinese, Thai, and American. You can also use the search feature to find your favorite recipes quickly.
@@ -84,3 +85,4 @@ This repository does not have a specific license©, so you are free to use the c
 If you have any questions or suggestions, feel free to open an issue in the repository.
 
 Happy cooking!
+
